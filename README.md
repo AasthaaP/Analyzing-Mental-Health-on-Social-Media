@@ -8,6 +8,5 @@ This project investigates linguistic patterns in mental health communities on Re
 ## Dataset
 
 - **Source:** Kaggle Reddit Mental Health Dataset
-- **Size:** ~50K posts across 6 subreddits
 - **Communities:** r/depression, r/Anxiety, r/SuicideWatch (mental health) + r/happy, r/CasualConversation
 - **Features:** Post text, timestamps, engagement metrics, user interactions
