@@ -100,20 +100,29 @@ Full dependency list: [`requirements.txt`](./requirements.txt)
 
 ## Repo Structure
 
+## Repo Structure
+
 ```text
 Analyzing-Mental-Health-on-Social-Media/
 │
-├── main_notebook.ipynb        ← Main deliverable: full analysis, start here
-├── requirements.txt           ← Full Colab environment snapshot
-├── README.md                  ← You are here
+├── main_notebook.ipynb            ← Main deliverable: full analysis, start here
+├── requirements.txt               ← Full Colab environment snapshot
+├── README.md                      ← You are here
 ├── .gitignore
 │
 ├── checkpoints/
-│   ├── checkpoint_1.ipynb     ← Checkpoint 1: dataset selection and initial EDA
-│   └── checkpoint_2.ipynb     ← Checkpoint 2: preprocessing and RQ development
+│   ├── checkpoint_1.ipynb         ← Checkpoint 1: dataset selection and initial EDA
+│   └── checkpoint_2.ipynb         ← Checkpoint 2: preprocessing and RQ development
+│
+├── scripts/
+│   ├── preprocess.py              ← Cleans raw CSV and extracts features
+│   └── augment.py                 ← Balances classes via synonym substitution
+│
+├── assets/
+│   ├── 337002019_DMA_Project_PPT.pptx  ← Project slide deck
 │
 └── data/
-    └── README.md              ← Dataset source, download instructions, preprocessing notes
+    └── README.md                  ← Dataset source, download instructions, preprocessing notes
 ```
 
 ---
