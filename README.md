@@ -100,7 +100,7 @@ Full dependency list: [`requirements.txt`](./requirements.txt)
 
 ## Repo Structure
 
-
+```text
 Analyzing-Mental-Health-on-Social-Media/
 │
 ├── main_notebook.ipynb        ← Main deliverable: full analysis, start here
@@ -113,9 +113,8 @@ Analyzing-Mental-Health-on-Social-Media/
 │   └── checkpoint_2.ipynb     ← Checkpoint 2: preprocessing and RQ development
 │
 └── data/
-└── README.md              ← Dataset source, download instructions, preprocessing notes
-
-
+    └── README.md              ← Dataset source, download instructions, preprocessing notes
+```
 
 ---
 
